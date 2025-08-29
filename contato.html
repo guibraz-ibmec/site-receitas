@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nosso Contato - Site de Receitas</title>
 </head>
 <body>
-    contato
+
+    <header>
+        <img src="/site-receitas/imagens/logo.jpg" alt="Logo do Site de Receitas" width="100">
+        
+        <h1>Entre em Contato Conosco!</h1>
+        
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="sobre.html">Sobre</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        
+        <section>
+            <h2>Envie sua mensagem</h2>
+            <p>Tem alguma dúvida ou sugestão? Preencha os campos abaixo para nos contatar.</p>
+            
+            <form action="#" method="POST">
+                
+                <div>
+                    <label for="nome">Seu Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                </div>
+                
+                <br> <div>
+                    <label for="email">Seu E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="mensagem">Sua Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+                
+                <br>
+
+                <button type="submit">Enviar</button>
+                
+            </form>
+            
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Nossas Redes Sociais:</p>
+        <a href="#">Instagram</a> |
+        <a href="#">Facebook</a> |
+        <a href="#">Pinterest</a>
+        
+        <br><br>
+        
+        <p>&copy; 2025 Site de Receitas - Todos os direitos reservados.</p>
+        
+        <p>
+            Contato por e-mail: 
+            <a href="mailto:contato@sitedereceitas.com.br">contato@sitedereceitas.com.br</a>
+        </p>
+    </footer>
+
 </body>
 </html>
